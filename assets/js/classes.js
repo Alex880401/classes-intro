@@ -103,3 +103,4 @@ class Phones {
 const iPhone = new Phones('Apple', 'iphone', 'white', 100, 2023);
 
 console.log(iPhone.calcPhoneAge());
+
