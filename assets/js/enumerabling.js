@@ -68,3 +68,4 @@ console.log(Object.values(user1));
 console.log(Object.entries(user1));
 
 // почитати прапори та дескриптори властивостей
+
