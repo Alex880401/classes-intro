@@ -104,3 +104,24 @@ const iPhone = new Phones('Apple', 'iphone', 'white', 100, 2023);
 
 console.log(iPhone.calcPhoneAge());
 
+// Три кити (принципи) ООП:
+
+// інкапсуляція - приховання логіки (особливостей реалізації)
+
+class User13{
+    constructor(fullName1) {
+        [this._firstName1, this._lastName1] = fullName1.split(' ');
+    };
+
+    set fullName(v) {
+        [this._firstName1, this._lastName1] = v.split(' ');
+    };
+
+    get fullName() {
+        return this._firstName1 + ' ' + this._lastName1;
+    }
+};
+
+const user44 = new User13('Test Testovych');
+
+user44.fullName = 'Ivo Bobul';
