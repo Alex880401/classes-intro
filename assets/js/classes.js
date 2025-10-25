@@ -107,6 +107,7 @@ console.log(iPhone.calcPhoneAge());
 // Три кити (принципи) ООП:
 
 // інкапсуляція - приховання логіки (особливостей реалізації)
+// вся логіка лишається в методах "під капотом", користувачу доступний інтерфейс і результати його роботи
 
 class User13{
     constructor(fullName1) {
@@ -125,3 +126,6 @@ class User13{
 const user44 = new User13('Test Testovych');
 
 user44.fullName = 'Ivo Bobul';
+
+
+
